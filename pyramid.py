@@ -4,10 +4,10 @@ t = Turtle()
 
 
 
-length = 50
-iterations = 25
+length = 100
+iterations = 5
 
-t.speed(0)
+
 def square():
     t.forward(length)
     t.right(90)
@@ -30,12 +30,9 @@ def pyramid(x):
     pixellength = iterations*length    
     for i in range(iterations):
         row(iterations)
-        t.right(90)
+        t.back(pixellength)
+        t.left(90)
         t.forward(length)
-        t.left(90)
-        t.back(pixellength - length)
-        t.left(90)
-        t.forward(length*2)
         t.right(90)
         iterations -= 1
         pixellength -= length
