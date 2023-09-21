@@ -30,7 +30,7 @@ def pyramid(x):
     pixellength = iterations*length    
     for i in range(iterations):
         row(iterations)
-        t.back(pixellength)
+        t.back(pixellength - length)
         t.left(90)
         t.forward(length)
         t.right(90)
