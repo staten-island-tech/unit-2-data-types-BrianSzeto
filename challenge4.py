@@ -13,3 +13,14 @@ for hi in range(1, num2 + 1):
     if num2 % hi == 0:
         list2.extend([hi])
 
+
+def common_factor(a,b):
+    set1 = set(a)
+    set2 = set(b)
+ 
+    if (set1 & set2):
+        print(max(set1 & set2))
+    else:
+        print("No greatest common factor.")
+
+common_factor(list1,list2)

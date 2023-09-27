@@ -1,12 +1,10 @@
-number = int(input("Number: "))
-factor = 1
-total = 0
+num = int(input("Number: "))
+list = []
 
-for i in range(number):
-    if number%factor == 0:
-        total += 1
-        factor += 1
-    else:
-        factor += 1
 
-print(total)
+
+for i in range(1, num + 1):
+    if num % i == 0:
+        list.extend([i])
+
+print(list)
