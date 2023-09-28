@@ -20,7 +20,5 @@ def common_factor(a,b):
  
     if (set1 & set2):
         print(max(set1 & set2))
-    else:
-        print("No greatest common factor.")
 
 common_factor(list1,list2)

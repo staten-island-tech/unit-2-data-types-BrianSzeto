@@ -1,8 +1,8 @@
 eastbound = input("Eastbound traffic: True or False ")
 westbound = input("Westbound traffic: True or False ")
 
-printfalse = "No you will die"
-printtrue = "Go ahead if you have a drivers liscence"
+printfalse = "False"
+printtrue = "True"
 
 
 if eastbound == "True" and westbound == "True":
