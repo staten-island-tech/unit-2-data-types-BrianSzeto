@@ -14,11 +14,11 @@ for hi in range(1, num2 + 1):
         list2.extend([hi])
 
 
-def common_factor(a,b):
+def gcf(a,b):
     set1 = set(a)
     set2 = set(b)
  
     if (set1 & set2):
         print(max(set1 & set2))
 
-common_factor(list1,list2)
+gcf(list1,list2)
